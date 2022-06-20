@@ -2,17 +2,20 @@ export const categories = [
     {
         id: 1,
         image: '/categorypotato.jpg',
-        title: 'POTATO PEELERS'
+        title: 'POTATO PEELERS',
+        category: 'potato'
     },
     {
         id: 2,
         image: '/categoryvegtable.jpg',
-        title: 'VEGETABLE PEELERS'
+        title: 'VEGETABLE PEELERS',
+        category: 'vegetable'
     },
     {
         id: 3,
         image: '/categoryfancy.jpg',
-        title: 'FANCY PEELERS'
+        title: 'FANCY PEELERS',
+        category: 'fancy'
     }
 ]
 export const popularProducts = [

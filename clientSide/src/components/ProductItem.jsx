@@ -1,4 +1,5 @@
 import { ShoppingCartOutlined, SearchOutlined, FavoriteBorderOutlined } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { popularProducts } from '../data';
 
@@ -70,7 +71,9 @@ export default function ProductItem ({item}){
                     <ShoppingCartOutlined/>
                 </Icon>
                 <Icon>
+                <Link to={`SingleProduct${item._id}`}>
                     <SearchOutlined/>
+                </Link>
                 </Icon>
                 <Icon>
                     <FavoriteBorderOutlined/>

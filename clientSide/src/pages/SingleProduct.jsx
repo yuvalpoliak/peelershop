@@ -92,6 +92,7 @@ const Button = styled.button`
     background-color: white;
     cursor: pointer;
     font-weight: 500;
+    margin-top: 10px;
 
     &:hover {
         background-color: snow;
